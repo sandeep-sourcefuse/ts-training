@@ -31,10 +31,10 @@
           <td>{{user.last_name}}</td>
           <td>{{user.email}}</td>
           <td>{{user.phone}}</td>
-          <td>{{user.role}}</td>
+          <td>{{user.getRole()}}</td>
           <td>{{user.address}}</td>
-          <td>{{user.getCreatedAt()}}</td>
-          <td>{{user.getModifiedAt()}}</td>
+          <td>{{user.createdAt}}</td>
+          <td>{{user.modifiedAt}}</td>
           <td>
               <button class="btn btn-success btn-sm" (click)="user.enableEditing()">Edit</button>
               <button class="btn btn-danger btn-sm" (click)="deleteUser(user.id)">Delete</button>
@@ -50,14 +50,14 @@
           <td>
             <select [(ngModel)]="user.editedData.role">
               <option value="">--Select a role--</option>
-              <option value="SuperAdmin">Super Admin</option>
-              <option value="Admin">Admin</option>
-              <option value="Subscriber">Subscriber</option>
+              <option value="0">SuperAdmin</option>
+              <option value="1">Admin</option>
+              <option value="2">Subscriber</option>
             </select>
           </td>
           <td><input type="text" [(ngModel)]="user.editedData.address"/></td>
-          <td>{{user.getCreatedAt()}}</td>
-          <td>{{user.getModifiedAt()}}</td>
+          <td>{{user.createdAt}}</td>
+          <td>{{user.modifiedAt}}</td>
           <td>
               <button class="btn btn-success btn-sm" (click)="user.saveData()">Save</button>
               <button class="btn btn-warning btn-sm" (click)="user.cancelEditing()">Cancel</button>

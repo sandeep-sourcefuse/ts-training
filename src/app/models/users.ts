@@ -1,8 +1,14 @@
 import moment from "moment";
-
+import { DateFormatTransform } from '../decorators/DateFormatTransform';
 
 //custom type for address but not in use
 type Address = string;
+
+export enum UserRoles{
+    SuperAdmin,
+    Admin,
+    Subscriber
+}
 
 //interface for user
 export interface UserI{
@@ -12,7 +18,7 @@ export interface UserI{
     last_name: string;
     email: string;
     phone: string;
-    role: string;
+    role: UserRoles;
     address: Address;
     created_at: string;
     modified_at: string;
@@ -31,10 +37,16 @@ export class User implements UserI {
     public phone;
     public role;
     public address;
-    public created_at;
-    public modified_at;
     public editMode = false;
     public editedData;
+    public created_at;
+    public modified_at;
+
+    @DateFormatTransform("created_at")
+    public createdAt?: Date;
+
+    @DateFormatTransform("modified_at")
+    public modifiedAt?: Date;
 
     constructor(user: UserI) {
         this.id = user.id;
@@ -65,7 +77,7 @@ export class User implements UserI {
         if(
             !this.editedData.first_name || 
             !this.editedData.email || 
-            !this.editedData.role
+            (!this.editedData.role && this.editedData.role != 0)
         ){
             alert("Please check all required filled");
             return;
@@ -77,6 +89,8 @@ export class User implements UserI {
         this.phone = this.editedData.phone;
         this.role = this.editedData.role;
         this.address = this.editedData.address;
+
+        this.modified_at = this.editedData.modified_at = moment().format("YYYY-MM-DD HH:mm");
 
         this.editMode = false;
     }
@@ -96,6 +110,10 @@ export class User implements UserI {
 
     enableEditing(){
         this.editMode = true;
+    }
+
+    getRole(): string{
+        return UserRoles[this.role];
     }
 }
 

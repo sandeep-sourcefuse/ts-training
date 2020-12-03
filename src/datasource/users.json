@@ -6,7 +6,7 @@
         "last_name": "Owens",
         "email": "rowens0@uol.com.br",
         "phone": "399-901-9893",
-        "role": "Admin",
+        "role": 1,
         "address": "98 Shoshone Junction",
         "created_at": "2020-10-09",
         "modified_at": "2020-01-07"
@@ -18,7 +18,7 @@
         "last_name": "Battisson",
         "email": "ibattisson1@netvibes.com",
         "phone": "830-529-6512",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "290 Mcguire Trail",
         "created_at": "2020-09-02",
         "modified_at": "2020-05-27"
@@ -30,7 +30,7 @@
         "last_name": "Rime",
         "email": "frime2@time.com",
         "phone": "256-219-6946",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "15546 Sloan Place",
         "created_at": "2020-09-26",
         "modified_at": "2020-09-29"
@@ -42,7 +42,7 @@
         "last_name": "Osgordby",
         "email": "eosgordby3@ebay.co.uk",
         "phone": "766-555-1241",
-        "role": "Subscriber",
+        "role": 2,
         "address": "52453 Bultman Street",
         "created_at": "2020-02-26",
         "modified_at": "2020-01-02"
@@ -54,7 +54,7 @@
         "last_name": "Kneale",
         "email": "lkneale4@dropbox.com",
         "phone": "560-556-3599",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "89778 Farragut Parkway",
         "created_at": "2020-08-30",
         "modified_at": "2020-03-06"
@@ -66,7 +66,7 @@
         "last_name": "Giovanazzi",
         "email": "cgiovanazzi5@fda.gov",
         "phone": "320-394-0597",
-        "role": "Subscriber",
+        "role": 2,
         "address": "4720 Burning Wood Lane",
         "created_at": "2020-01-12",
         "modified_at": "2020-11-16"
@@ -78,7 +78,7 @@
         "last_name": "Cahillane",
         "email": "acahillane6@msu.edu",
         "phone": "858-432-6342",
-        "role": "Admin",
+        "role": 1,
         "address": "75 Mcbride Hill",
         "created_at": "2020-04-22",
         "modified_at": "2020-06-10"
@@ -90,7 +90,7 @@
         "last_name": "Willcocks",
         "email": "twillcocks7@umich.edu",
         "phone": "515-414-3882",
-        "role": "Admin",
+        "role": 1,
         "address": "2 Hagan Street",
         "created_at": "2020-02-28",
         "modified_at": "2020-07-27"
@@ -102,7 +102,7 @@
         "last_name": "Noakes",
         "email": "mnoakes8@wp.com",
         "phone": "914-130-1163",
-        "role": "Admin",
+        "role": 1,
         "address": "72279 Bay Junction",
         "created_at": "2020-03-24",
         "modified_at": "2020-04-02"
@@ -114,7 +114,7 @@
         "last_name": "Dobrowolski",
         "email": "cdobrowolski9@ucsd.edu",
         "phone": "995-670-7002",
-        "role": "Subscriber",
+        "role": 2,
         "address": "25111 Donald Parkway",
         "created_at": "2020-03-18",
         "modified_at": "2020-05-06"
@@ -126,7 +126,7 @@
         "last_name": "McLeod",
         "email": "amcleoda@unicef.org",
         "phone": "343-925-5404",
-        "role": "Subscriber",
+        "role": 2,
         "address": "6565 Acker Pass",
         "created_at": "2020-02-18",
         "modified_at": "2020-11-28"
@@ -138,7 +138,7 @@
         "last_name": "Cellier",
         "email": "ccellierb@amazon.com",
         "phone": "423-831-7432",
-        "role": "Admin",
+        "role": 1,
         "address": "62 Bultman Crossing",
         "created_at": "2020-04-29",
         "modified_at": "2020-09-17"
@@ -150,7 +150,7 @@
         "last_name": "Ramsdell",
         "email": "bramsdellc@europa.eu",
         "phone": "207-240-5740",
-        "role": "Admin",
+        "role": 1,
         "address": "2376 Arizona Lane",
         "created_at": "2020-05-06",
         "modified_at": "2020-06-09"
@@ -162,7 +162,7 @@
         "last_name": "Balsdon",
         "email": "mbalsdond@hostgator.com",
         "phone": "246-227-4753",
-        "role": "Subscriber",
+        "role": 2,
         "address": "94571 Thackeray Place",
         "created_at": "2020-03-17",
         "modified_at": "2020-09-21"
@@ -174,7 +174,7 @@
         "last_name": "Valdes",
         "email": "wvaldese@yolasite.com",
         "phone": "155-464-2603",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "61967 Bartillon Park",
         "created_at": "2020-06-27",
         "modified_at": "2020-08-18"
@@ -186,7 +186,7 @@
         "last_name": "Beevers",
         "email": "lbeeversf@yale.edu",
         "phone": "525-681-1377",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "14 John Wall Street",
         "created_at": "2020-11-06",
         "modified_at": "2020-10-04"
@@ -198,7 +198,7 @@
         "last_name": "Cringle",
         "email": "mcringleg@amazon.co.uk",
         "phone": "995-611-5761",
-        "role": "Admin",
+        "role": 1,
         "address": "600 Dakota Parkway",
         "created_at": "2019-12-02",
         "modified_at": "2020-01-28"
@@ -210,7 +210,7 @@
         "last_name": "Coulthard",
         "email": "acoulthardh@google.com",
         "phone": "364-202-1726",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "91815 Montana Drive",
         "created_at": "2020-01-15",
         "modified_at": "2020-07-02"
@@ -222,7 +222,7 @@
         "last_name": "Wilcott",
         "email": "dwilcotti@microsoft.com",
         "phone": "936-871-4269",
-        "role": "Subscriber",
+        "role": 2,
         "address": "6 Blaine Point",
         "created_at": "2020-09-15",
         "modified_at": "2020-09-14"
@@ -234,7 +234,7 @@
         "last_name": "Coxon",
         "email": "rcoxonj@umn.edu",
         "phone": "246-980-4942",
-        "role": "Subscriber",
+        "role": 2,
         "address": "446 American Way",
         "created_at": "2020-09-04",
         "modified_at": "2020-07-10"
@@ -246,7 +246,7 @@
         "last_name": "Foddy",
         "email": "bfoddyk@ca.gov",
         "phone": "701-697-9669",
-        "role": "Subscriber",
+        "role": 2,
         "address": "7 Butterfield Way",
         "created_at": "2020-03-15",
         "modified_at": "2020-04-01"
@@ -258,7 +258,7 @@
         "last_name": "Bodicam",
         "email": "hbodicaml@miitbeian.gov.cn",
         "phone": "414-371-1955",
-        "role": "Subscriber",
+        "role": 2,
         "address": "8 Namekagon Avenue",
         "created_at": "2020-01-25",
         "modified_at": "2020-05-06"
@@ -270,7 +270,7 @@
         "last_name": "Rubinovitsch",
         "email": "crubinovitschm@sohu.com",
         "phone": "954-229-1086",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "283 Charing Cross Trail",
         "created_at": "2020-07-08",
         "modified_at": "2020-09-23"
@@ -282,7 +282,7 @@
         "last_name": "Doucette",
         "email": "jdoucetten@squidoo.com",
         "phone": "548-982-0481",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "9651 Melby Plaza",
         "created_at": "2020-10-03",
         "modified_at": "2020-04-06"
@@ -294,7 +294,7 @@
         "last_name": "Melluish",
         "email": "gmelluisho@odnoklassniki.ru",
         "phone": "665-954-4391",
-        "role": "Subscriber",
+        "role": 2,
         "address": "7 Morning Crossing",
         "created_at": "2020-06-02",
         "modified_at": "2020-05-23"
@@ -306,7 +306,7 @@
         "last_name": "Brill",
         "email": "tbrillp@ow.ly",
         "phone": "515-197-1077",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "0430 Victoria Point",
         "created_at": "2020-05-04",
         "modified_at": "2020-03-18"
@@ -318,7 +318,7 @@
         "last_name": "Brittan",
         "email": "nbrittanq@ebay.com",
         "phone": "114-325-9095",
-        "role": "Admin",
+        "role": 1,
         "address": "8372 Reinke Hill",
         "created_at": "2020-07-12",
         "modified_at": "2020-08-22"
@@ -330,7 +330,7 @@
         "last_name": "Preddle",
         "email": "lpreddler@wikipedia.org",
         "phone": "480-579-6385",
-        "role": "Admin",
+        "role": 1,
         "address": "8 New Castle Place",
         "created_at": "2020-08-03",
         "modified_at": "2020-02-26"
@@ -342,7 +342,7 @@
         "last_name": "Oddie",
         "email": "roddies@example.com",
         "phone": "310-782-0264",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "89 Luster Circle",
         "created_at": "2020-09-13",
         "modified_at": "2020-09-13"
@@ -354,7 +354,7 @@
         "last_name": "Gabotti",
         "email": "bgabottit@smugmug.com",
         "phone": "626-780-9694",
-        "role": "Subscriber",
+        "role": 2,
         "address": "18 Maywood Road",
         "created_at": "2020-02-20",
         "modified_at": "2020-08-19"
@@ -366,7 +366,7 @@
         "last_name": "Downgate",
         "email": "bdowngateu@ustream.tv",
         "phone": "915-154-5471",
-        "role": "Admin",
+        "role": 1,
         "address": "415 Rieder Pass",
         "created_at": "2020-11-08",
         "modified_at": "2020-03-16"
@@ -378,7 +378,7 @@
         "last_name": "Teague",
         "email": "iteaguev@adobe.com",
         "phone": "845-474-8370",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "61473 Northview Junction",
         "created_at": "2020-04-12",
         "modified_at": "2020-05-11"
@@ -390,7 +390,7 @@
         "last_name": "Lyokhin",
         "email": "tlyokhinw@sbwire.com",
         "phone": "302-288-4910",
-        "role": "Admin",
+        "role": 1,
         "address": "338 Cardinal Crossing",
         "created_at": "2020-04-05",
         "modified_at": "2020-07-28"
@@ -402,7 +402,7 @@
         "last_name": "Oliva",
         "email": "rolivax@baidu.com",
         "phone": "847-883-5016",
-        "role": "Admin",
+        "role": 1,
         "address": "40 Rieder Parkway",
         "created_at": "2020-08-19",
         "modified_at": "2020-03-19"
@@ -414,7 +414,7 @@
         "last_name": "Mc Combe",
         "email": "jmccombey@t-online.de",
         "phone": "467-455-5665",
-        "role": "Subscriber",
+        "role": 2,
         "address": "353 Lukken Circle",
         "created_at": "2020-05-12",
         "modified_at": "2020-06-05"
@@ -426,7 +426,7 @@
         "last_name": "Crathorne",
         "email": "bcrathornez@infoseek.co.jp",
         "phone": "531-540-7004",
-        "role": "Admin",
+        "role": 1,
         "address": "10 Waubesa Plaza",
         "created_at": "2020-01-08",
         "modified_at": "2019-12-07"
@@ -438,7 +438,7 @@
         "last_name": "McReidy",
         "email": "kmcreidy10@over-blog.com",
         "phone": "637-103-9434",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "55829 Bay Drive",
         "created_at": "2020-04-23",
         "modified_at": "2020-02-20"
@@ -450,7 +450,7 @@
         "last_name": "Piechnik",
         "email": "gpiechnik11@vkontakte.ru",
         "phone": "852-348-3463",
-        "role": "Admin",
+        "role": 1,
         "address": "764 Marquette Parkway",
         "created_at": "2019-12-05",
         "modified_at": "2020-09-07"
@@ -462,7 +462,7 @@
         "last_name": "Luckes",
         "email": "cluckes12@wsj.com",
         "phone": "657-646-0090",
-        "role": "Admin",
+        "role": 1,
         "address": "316 Grasskamp Terrace",
         "created_at": "2020-03-02",
         "modified_at": "2020-08-02"
@@ -474,7 +474,7 @@
         "last_name": "Coiley",
         "email": "jcoiley13@berkeley.edu",
         "phone": "688-738-1678",
-        "role": "Subscriber",
+        "role": 2,
         "address": "8399 Lyons Plaza",
         "created_at": "2020-08-11",
         "modified_at": "2020-05-21"
@@ -486,7 +486,7 @@
         "last_name": "Buse",
         "email": "mbuse14@surveymonkey.com",
         "phone": "784-292-2056",
-        "role": "Subscriber",
+        "role": 2,
         "address": "784 Nancy Road",
         "created_at": "2020-09-08",
         "modified_at": "2020-11-17"
@@ -498,7 +498,7 @@
         "last_name": "Mitskevich",
         "email": "zmitskevich15@google.ca",
         "phone": "122-851-8774",
-        "role": "Subscriber",
+        "role": 2,
         "address": "9 Stephen Road",
         "created_at": "2020-02-11",
         "modified_at": "2019-12-31"
@@ -510,7 +510,7 @@
         "last_name": "Housley",
         "email": "fhousley16@google.fr",
         "phone": "793-180-2403",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "9 Maple Wood Park",
         "created_at": "2019-12-20",
         "modified_at": "2020-07-16"
@@ -522,7 +522,7 @@
         "last_name": "Ralling",
         "email": "hralling17@jiathis.com",
         "phone": "749-238-8516",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "30896 Ramsey Junction",
         "created_at": "2020-05-07",
         "modified_at": "2019-12-24"
@@ -534,7 +534,7 @@
         "last_name": "Irvin",
         "email": "sirvin18@desdev.cn",
         "phone": "313-690-1057",
-        "role": "Subscriber",
+        "role": 2,
         "address": "290 Chive Crossing",
         "created_at": "2020-05-25",
         "modified_at": "2020-10-20"
@@ -546,7 +546,7 @@
         "last_name": "Toohey",
         "email": "ftoohey19@yelp.com",
         "phone": "668-957-5802",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "2767 Forest Run Parkway",
         "created_at": "2020-01-13",
         "modified_at": "2020-01-10"
@@ -558,7 +558,7 @@
         "last_name": "Moxted",
         "email": "gmoxted1a@posterous.com",
         "phone": "677-729-8472",
-        "role": "Admin",
+        "role": 1,
         "address": "514 Milwaukee Junction",
         "created_at": "2020-04-08",
         "modified_at": "2020-01-11"
@@ -570,7 +570,7 @@
         "last_name": "Allanby",
         "email": "nallanby1b@cnbc.com",
         "phone": "775-787-2805",
-        "role": "Admin",
+        "role": 1,
         "address": "4 Schmedeman Street",
         "created_at": "2020-03-06",
         "modified_at": "2020-08-30"
@@ -582,7 +582,7 @@
         "last_name": "Northcott",
         "email": "mnorthcott1c@instagram.com",
         "phone": "380-114-7913",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "537 Grover Street",
         "created_at": "2019-12-25",
         "modified_at": "2020-02-17"
@@ -594,7 +594,7 @@
         "last_name": "Vink",
         "email": "evink1d@newyorker.com",
         "phone": "575-485-5525",
-        "role": "Admin",
+        "role": 1,
         "address": "563 Hagan Place",
         "created_at": "2020-04-07",
         "modified_at": "2020-08-31"
@@ -606,7 +606,7 @@
         "last_name": "Knocker",
         "email": "cknocker1e@yale.edu",
         "phone": "423-145-7931",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "2328 Lake View Crossing",
         "created_at": "2019-12-25",
         "modified_at": "2020-08-19"
@@ -618,7 +618,7 @@
         "last_name": "Palatini",
         "email": "gpalatini1f@goo.ne.jp",
         "phone": "832-128-1395",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "577 Judy Street",
         "created_at": "2020-05-01",
         "modified_at": "2020-01-11"
@@ -630,7 +630,7 @@
         "last_name": "Thresh",
         "email": "dthresh1g@china.com.cn",
         "phone": "743-831-1240",
-        "role": "Admin",
+        "role": 1,
         "address": "642 Namekagon Center",
         "created_at": "2020-07-28",
         "modified_at": "2020-08-12"
@@ -642,7 +642,7 @@
         "last_name": "Flindall",
         "email": "bflindall1h@blog.com",
         "phone": "137-759-2490",
-        "role": "Admin",
+        "role": 1,
         "address": "801 Spaight Trail",
         "created_at": "2020-07-11",
         "modified_at": "2019-12-10"
@@ -654,7 +654,7 @@
         "last_name": "Kliner",
         "email": "bkliner1i@cdc.gov",
         "phone": "740-200-8074",
-        "role": "Admin",
+        "role": 1,
         "address": "47611 3rd Hill",
         "created_at": "2020-07-03",
         "modified_at": "2020-01-23"
@@ -666,7 +666,7 @@
         "last_name": "Bankhurst",
         "email": "bbankhurst1j@google.cn",
         "phone": "266-485-4880",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "26237 Continental Trail",
         "created_at": "2020-09-11",
         "modified_at": "2020-08-31"
@@ -678,7 +678,7 @@
         "last_name": "Blaxlande",
         "email": "jblaxlande1k@illinois.edu",
         "phone": "191-452-6919",
-        "role": "Admin",
+        "role": 1,
         "address": "4 West Crossing",
         "created_at": "2020-04-22",
         "modified_at": "2020-08-23"
@@ -690,7 +690,7 @@
         "last_name": "Siveter",
         "email": "asiveter1l@sakura.ne.jp",
         "phone": "153-299-9688",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "72970 Prentice Circle",
         "created_at": "2020-01-21",
         "modified_at": "2020-11-03"
@@ -702,7 +702,7 @@
         "last_name": "Bettison",
         "email": "bbettison1m@ow.ly",
         "phone": "538-904-3688",
-        "role": "Subscriber",
+        "role": 2,
         "address": "51165 Chive Center",
         "created_at": "2020-09-08",
         "modified_at": "2020-07-05"
@@ -714,7 +714,7 @@
         "last_name": "Eskriet",
         "email": "keskriet1n@vinaora.com",
         "phone": "432-414-4467",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "16567 Eagan Avenue",
         "created_at": "2020-09-02",
         "modified_at": "2020-10-08"
@@ -726,7 +726,7 @@
         "last_name": "Wreakes",
         "email": "awreakes1o@mysql.com",
         "phone": "342-455-3241",
-        "role": "Subscriber",
+        "role": 2,
         "address": "221 Golden Leaf Drive",
         "created_at": "2020-07-10",
         "modified_at": "2020-02-29"
@@ -738,7 +738,7 @@
         "last_name": "Emptage",
         "email": "demptage1p@uiuc.edu",
         "phone": "418-457-7224",
-        "role": "Admin",
+        "role": 1,
         "address": "7 Burrows Terrace",
         "created_at": "2020-02-20",
         "modified_at": "2020-01-30"
@@ -750,7 +750,7 @@
         "last_name": "Castagnasso",
         "email": "vcastagnasso1q@nps.gov",
         "phone": "576-902-9213",
-        "role": "Subscriber",
+        "role": 2,
         "address": "970 Gulseth Plaza",
         "created_at": "2020-04-16",
         "modified_at": "2020-09-19"
@@ -762,7 +762,7 @@
         "last_name": "Eplett",
         "email": "beplett1r@bizjournals.com",
         "phone": "189-991-3239",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "337 Starling Drive",
         "created_at": "2020-03-06",
         "modified_at": "2020-11-10"
@@ -774,7 +774,7 @@
         "last_name": "Leethem",
         "email": "nleethem1s@free.fr",
         "phone": "797-212-4851",
-        "role": "Admin",
+        "role": 1,
         "address": "243 Banding Place",
         "created_at": "2019-12-16",
         "modified_at": "2020-07-30"
@@ -786,7 +786,7 @@
         "last_name": "Nickolls",
         "email": "dnickolls1t@amazon.co.uk",
         "phone": "168-352-4228",
-        "role": "Admin",
+        "role": 1,
         "address": "9 Redwing Trail",
         "created_at": "2020-03-19",
         "modified_at": "2020-03-14"
@@ -798,7 +798,7 @@
         "last_name": "Zimmerman",
         "email": "mzimmerman1u@irs.gov",
         "phone": "609-426-3484",
-        "role": "Subscriber",
+        "role": 2,
         "address": "075 Bluestem Parkway",
         "created_at": "2020-11-27",
         "modified_at": "2020-05-19"
@@ -810,7 +810,7 @@
         "last_name": "Carnegie",
         "email": "gcarnegie1v@ask.com",
         "phone": "382-624-3400",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "56136 Heffernan Pass",
         "created_at": "2020-01-10",
         "modified_at": "2019-12-25"
@@ -822,7 +822,7 @@
         "last_name": "Cuttin",
         "email": "acuttin1w@marketwatch.com",
         "phone": "222-934-6320",
-        "role": "Subscriber",
+        "role": 2,
         "address": "90 Dakota Way",
         "created_at": "2020-04-24",
         "modified_at": "2020-01-28"
@@ -834,7 +834,7 @@
         "last_name": "Dunniom",
         "email": "sdunniom1x@theguardian.com",
         "phone": "691-255-8619",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "50 Judy Point",
         "created_at": "2020-11-19",
         "modified_at": "2020-05-14"
@@ -846,7 +846,7 @@
         "last_name": "Pragnell",
         "email": "bpragnell1y@sun.com",
         "phone": "287-246-8759",
-        "role": "Admin",
+        "role": 1,
         "address": "5751 Arrowood Circle",
         "created_at": "2020-07-08",
         "modified_at": "2020-09-30"
@@ -858,7 +858,7 @@
         "last_name": "Ruppel",
         "email": "cruppel1z@globo.com",
         "phone": "615-167-1104",
-        "role": "Admin",
+        "role": 1,
         "address": "5260 Old Shore Center",
         "created_at": "2020-01-02",
         "modified_at": "2020-08-14"
@@ -870,7 +870,7 @@
         "last_name": "Slate",
         "email": "rslate20@sina.com.cn",
         "phone": "315-879-2014",
-        "role": "Subscriber",
+        "role": 2,
         "address": "6 Dottie Lane",
         "created_at": "2020-08-25",
         "modified_at": "2020-07-10"
@@ -882,7 +882,7 @@
         "last_name": "Freeberne",
         "email": "ffreeberne21@yale.edu",
         "phone": "351-473-5083",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "09654 Valley Edge Parkway",
         "created_at": "2020-01-23",
         "modified_at": "2020-04-17"
@@ -894,7 +894,7 @@
         "last_name": "Harford",
         "email": "wharford22@deviantart.com",
         "phone": "734-511-1023",
-        "role": "Subscriber",
+        "role": 2,
         "address": "73 Talmadge Place",
         "created_at": "2020-10-19",
         "modified_at": "2020-11-21"
@@ -906,7 +906,7 @@
         "last_name": "Cholwell",
         "email": "vcholwell23@cmu.edu",
         "phone": "763-326-1613",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "4 Hooker Street",
         "created_at": "2020-05-24",
         "modified_at": "2020-08-26"
@@ -918,7 +918,7 @@
         "last_name": "Dryden",
         "email": "ndryden24@walmart.com",
         "phone": "463-431-4787",
-        "role": "Admin",
+        "role": 1,
         "address": "613 Glendale Road",
         "created_at": "2020-01-16",
         "modified_at": "2020-01-08"
@@ -930,7 +930,7 @@
         "last_name": "Fedoronko",
         "email": "zfedoronko25@geocities.com",
         "phone": "105-128-2993",
-        "role": "Subscriber",
+        "role": 2,
         "address": "8198 Buell Hill",
         "created_at": "2020-03-10",
         "modified_at": "2020-09-15"
@@ -942,7 +942,7 @@
         "last_name": "Rowland",
         "email": "arowland26@networksolutions.com",
         "phone": "535-698-6653",
-        "role": "Subscriber",
+        "role": 2,
         "address": "282 Transport Road",
         "created_at": "2020-02-15",
         "modified_at": "2020-01-12"
@@ -954,7 +954,7 @@
         "last_name": "Cowlishaw",
         "email": "lcowlishaw27@hostgator.com",
         "phone": "144-214-8795",
-        "role": "Subscriber",
+        "role": 2,
         "address": "364 Fordem Parkway",
         "created_at": "2020-03-08",
         "modified_at": "2020-02-04"
@@ -966,7 +966,7 @@
         "last_name": "Hacquel",
         "email": "phacquel28@hexun.com",
         "phone": "851-600-6744",
-        "role": "Subscriber",
+        "role": 2,
         "address": "42 Welch Park",
         "created_at": "2020-03-18",
         "modified_at": "2020-05-14"
@@ -978,7 +978,7 @@
         "last_name": "Floodgate",
         "email": "ffloodgate29@mozilla.org",
         "phone": "295-297-0568",
-        "role": "Subscriber",
+        "role": 2,
         "address": "5292 Manley Park",
         "created_at": "2020-04-20",
         "modified_at": "2020-04-08"
@@ -990,7 +990,7 @@
         "last_name": "Doncom",
         "email": "ddoncom2a@huffingtonpost.com",
         "phone": "350-212-9548",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "28 Westend Junction",
         "created_at": "2020-06-21",
         "modified_at": "2020-11-16"
@@ -1002,7 +1002,7 @@
         "last_name": "Doveston",
         "email": "ldoveston2b@rediff.com",
         "phone": "998-625-9982",
-        "role": "Subscriber",
+        "role": 2,
         "address": "67 Randy Terrace",
         "created_at": "2020-08-01",
         "modified_at": "2020-05-02"
@@ -1014,7 +1014,7 @@
         "last_name": "Castagneto",
         "email": "icastagneto2c@netvibes.com",
         "phone": "303-245-9763",
-        "role": "Admin",
+        "role": 1,
         "address": "28 Walton Lane",
         "created_at": "2020-11-11",
         "modified_at": "2020-09-12"
@@ -1026,7 +1026,7 @@
         "last_name": "Harbor",
         "email": "sharbor2d@istockphoto.com",
         "phone": "435-671-5764",
-        "role": "Subscriber",
+        "role": 2,
         "address": "1 Loeprich Parkway",
         "created_at": "2020-04-23",
         "modified_at": "2020-01-12"
@@ -1038,7 +1038,7 @@
         "last_name": "Ince",
         "email": "rince2e@ucoz.ru",
         "phone": "730-267-2586",
-        "role": "Admin",
+        "role": 1,
         "address": "9702 Manufacturers Way",
         "created_at": "2019-12-14",
         "modified_at": "2020-10-30"
@@ -1050,7 +1050,7 @@
         "last_name": "Pulham",
         "email": "mpulham2f@pcworld.com",
         "phone": "553-287-5312",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "600 Bayside Center",
         "created_at": "2020-05-28",
         "modified_at": "2020-04-17"
@@ -1062,7 +1062,7 @@
         "last_name": "Washtell",
         "email": "mwashtell2g@chronoengine.com",
         "phone": "613-340-4793",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "76692 Manufacturers Way",
         "created_at": "2020-10-04",
         "modified_at": "2019-12-20"
@@ -1074,7 +1074,7 @@
         "last_name": "Jubb",
         "email": "mjubb2h@soundcloud.com",
         "phone": "424-862-6793",
-        "role": "Subscriber",
+        "role": 2,
         "address": "9054 Glendale Road",
         "created_at": "2020-06-25",
         "modified_at": "2020-02-29"
@@ -1086,7 +1086,7 @@
         "last_name": "Speedin",
         "email": "aspeedin2i@biblegateway.com",
         "phone": "791-408-8276",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "47 Jenna Street",
         "created_at": "2020-05-28",
         "modified_at": "2020-06-30"
@@ -1098,7 +1098,7 @@
         "last_name": "Alejandro",
         "email": "dalejandro2j@t.co",
         "phone": "231-440-6792",
-        "role": "Subscriber",
+        "role": 2,
         "address": "2 Glendale Terrace",
         "created_at": "2020-04-30",
         "modified_at": "2019-12-20"
@@ -1110,7 +1110,7 @@
         "last_name": "Renachowski",
         "email": "rrenachowski2k@chron.com",
         "phone": "229-426-4706",
-        "role": "Subscriber",
+        "role": 2,
         "address": "711 Holy Cross Plaza",
         "created_at": "2020-11-16",
         "modified_at": "2020-04-20"
@@ -1122,7 +1122,7 @@
         "last_name": "Scrannage",
         "email": "ascrannage2l@google.co.uk",
         "phone": "926-118-7622",
-        "role": "Admin",
+        "role": 1,
         "address": "3 Vahlen Alley",
         "created_at": "2020-07-08",
         "modified_at": "2019-12-17"
@@ -1134,7 +1134,7 @@
         "last_name": "Dulinty",
         "email": "bdulinty2m@vistaprint.com",
         "phone": "597-272-5392",
-        "role": "Subscriber",
+        "role": 2,
         "address": "7507 Grim Place",
         "created_at": "2020-02-13",
         "modified_at": "2020-09-10"
@@ -1146,7 +1146,7 @@
         "last_name": "Southerill",
         "email": "csoutherill2n@hp.com",
         "phone": "848-569-5847",
-        "role": "Subscriber",
+        "role": 2,
         "address": "3673 Mosinee Center",
         "created_at": "2020-09-22",
         "modified_at": "2020-09-18"
@@ -1158,7 +1158,7 @@
         "last_name": "Di Pietro",
         "email": "zdipietro2o@google.co.uk",
         "phone": "643-523-0882",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "2073 Waywood Way",
         "created_at": "2020-01-29",
         "modified_at": "2019-12-14"
@@ -1170,7 +1170,7 @@
         "last_name": "Roder",
         "email": "mroder2p@stanford.edu",
         "phone": "801-891-4161",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "865 Grim Terrace",
         "created_at": "2020-09-05",
         "modified_at": "2020-03-12"
@@ -1182,7 +1182,7 @@
         "last_name": "Rosebotham",
         "email": "crosebotham2q@yahoo.co.jp",
         "phone": "473-710-4223",
-        "role": "SuperAdmin",
+        "role": 0,
         "address": "9492 7th Court",
         "created_at": "2020-08-28",
         "modified_at": "2020-06-23"
@@ -1194,7 +1194,7 @@
         "last_name": "Orthmann",
         "email": "porthmann2r@arizona.edu",
         "phone": "359-630-0425",
-        "role": "Admin",
+        "role": 1,
         "address": "56 Aberg Way",
         "created_at": "2020-02-09",
         "modified_at": "2020-08-05"
