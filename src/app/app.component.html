@@ -3,6 +3,9 @@
   <button (click)="loadData()" [ngClass]="{btn: true, 'btn-success': !initializeData, 'btn-warning': initializeData}">
     {{!initializeData ? 'Load Data' : 'Refresh Data'}}
   </button>
+  &nbsp;
+  &nbsp;
+  <button class="btn btn-success" *ngIf="initializeData" (click)="createUser()">Create New User</button>
 </div>
 
 <div [ngClass]="['users-list','table-responsive']" *ngIf="initializeData">
@@ -59,7 +62,7 @@
           <td>{{user.createdAt}}</td>
           <td>{{user.modifiedAt}}</td>
           <td>
-              <button class="btn btn-success btn-sm" (click)="user.saveData()">Save</button>
+              <button class="btn btn-success btn-sm" (click)="updateUser(user)">Save</button>
               <button class="btn btn-warning btn-sm" (click)="user.cancelEditing()">Cancel</button>
           </td>
         </ng-container>
