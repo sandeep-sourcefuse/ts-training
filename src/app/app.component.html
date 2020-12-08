@@ -5,7 +5,7 @@
   </button>
   &nbsp;
   &nbsp;
-  <button class="btn btn-success" *ngIf="initializeData" (click)="createUser()">Create New User</button>
+  <button class="btn btn-outline-primary" (click)="createUserModal()">Create New User</button>
 </div>
 
 <div [ngClass]="['users-list','table-responsive']" *ngIf="initializeData">
@@ -40,7 +40,7 @@
           <td>{{user.modifiedAt}}</td>
           <td>
               <button class="btn btn-success btn-sm" (click)="user.enableEditing()">Edit</button>
-              <button class="btn btn-danger btn-sm" (click)="deleteUser(user.id)">Delete</button>
+              <button class="btn btn-danger btn-sm" (click)="deleteUser(user)">Delete</button>
           </td>
         </ng-container>
 

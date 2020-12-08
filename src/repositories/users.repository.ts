@@ -6,50 +6,60 @@ export class UsersRepository extends CRUDRepository<UserI>{
 
     initializeData: boolean = false;
     users: User[] = [];
+    newUser: UserI = {
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "email": "",
+        "phone": "",
+        "role": 0,
+        "address": "" 
+    };
 
     loadData(){
-        this.find().then((usersData: UserI[]) => {
+        this.find("/users").subscribe((usersData: UserI[]) => {
             this.initializeData = true;
             this.users = usersData.map((user: UserI) => new User({...user}));
         })
     }
 
-    deleteUser(id: number){
-        this.delete(id).then((result: boolean) => {
-           if(result) this.users = this.users.filter((user: User) => user.id != id);
+    deleteUser(selectedUser: UserI){
+        this.delete(`/users/${selectedUser.id}`).subscribe((result: boolean) => {
+           this.users = this.users.filter((user: User) => user.id != selectedUser.id);
         })
     }
 
     async createUser(){
 
-        let currentDateTime = moment().format("YYYY-MM-DD HH:mm");
-        let userCounts = await this.countsOfUsers();
-        let userData: UserI = {
-            "id": new Date().getTime(),
-            "first_name": "Rabbi "+userCounts,
-            "middle_name": "Bolles",
-            "last_name": "Owens",
-            "email": "rowens0@uol.com.br",
-            "phone": "399-901-9893",
-            "role": 1,
-            "address": "98 Shoshone Junction",
-            "created_at": currentDateTime,
-            "modified_at": currentDateTime
-        };
+        if(
+            !this.newUser.first_name || 
+            !this.newUser.email || 
+            (!this.newUser.role && this.newUser.role != 0)
+        ){
+            alert("Please check all required filled");
+            return;
+        }
 
-        this.create(userData).then((user: UserI) => {
-            this.users.unshift(new User(user));
+        let currentDateTime = moment().format("YYYY-MM-DDTHH:mm:ssZ");
+        this.newUser.created_at = currentDateTime;
+        this.newUser.modified_at = currentDateTime;
+
+        return new Promise(res => {
+            this.create("/users", this.newUser).subscribe((user: UserI) => {
+                this.users.unshift(new User(user));
+                res();
+            })
         })
     }
 
     updateUser(user: User){
-        this.update(user.id, user.editedData).then((updatedUser: UserI) => {
+        this.update(`/users/${user.id}`, user.editedData).subscribe((updatedUser: UserI) => {
             user.saveData();
         })
     }
 
     findUser(id: number){
-        this.findOne(id).then((user: UserI) => {
+        this.findOne(`/users/${id}`).subscribe((user: UserI) => {
             this.users = [new User(user)];
         })
     }

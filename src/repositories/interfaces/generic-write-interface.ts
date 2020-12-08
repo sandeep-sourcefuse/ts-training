@@ -1,5 +1,7 @@
+import { Observable } from 'rxjs';
+
 export interface IWrite<T> {
-    create(item: T): Promise<T>
-    update(id: number, item: T): Promise<T>
-    delete(id: number): Promise<boolean>
+    create(endPoint: string, item: T): Observable<T>
+    update(endPoint: string, item: T): Observable<T>
+    delete(endPoint: string): Observable<boolean>
 }

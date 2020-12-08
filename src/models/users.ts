@@ -12,7 +12,7 @@ export enum UserRoles{
 
 //interface for user
 export interface UserI{
-    id: number;
+    id?: number;
     first_name: string;
     middle_name: string;
     last_name: string;
@@ -20,8 +20,8 @@ export interface UserI{
     phone: string;
     role: UserRoles;
     address: Address;
-    created_at: string;
-    modified_at: string;
+    created_at?: string;
+    modified_at?: string;
     editMode?: boolean;
     editedData?: UserI
 }
@@ -90,7 +90,7 @@ export class User implements UserI {
         this.role = this.editedData.role;
         this.address = this.editedData.address;
 
-        this.modified_at = this.editedData.modified_at = moment().format("YYYY-MM-DD HH:mm");
+        this.modified_at = this.editedData.modified_at = moment().format("YYYY-MM-DDTHH:mm:ssZ");
 
         this.editMode = false;
     }

@@ -1,0 +1,56 @@
+<div class="modal-header">
+    <h4 class="modal-title">Create New User</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>First Name</label>
+                <input type="text" class="form-control" placeholder="First Name" [(ngModel)]="user.first_name">
+            </div>
+            <div class="form-group col-md-6">
+                <label>Middle Name</label>
+                <input type="text" class="form-control" placeholder="Middle Name" [(ngModel)]="user.middle_name">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>Last Name</label>
+                <input type="text" class="form-control" placeholder="Last Name" [(ngModel)]="user.last_name">
+            </div>
+            <div class="form-group col-md-6">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Email" [(ngModel)]="user.email">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>Phone</label>
+                <input type="text" class="form-control" placeholder="Phone" [(ngModel)]="user.phone">
+            </div>
+            <div class="form-group col-md-6">
+                <label>Role</label>
+                <select class="form-control" [(ngModel)]="user.role">
+                    <option value="">--Select a role--</option>
+                    <option value="0">SuperAdmin</option>
+                    <option value="1">Admin</option>
+                    <option value="2">Subscriber</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Address</label>
+            <input type="text" class="form-control" placeholder="Address" [(ngModel)]="user.address">
+        </div>
+
+        <div class="text-right">
+            <button type="button" (click)="submitNewUser()" class="btn btn-primary">Submit</button>
+        </div>
+
+</div>
